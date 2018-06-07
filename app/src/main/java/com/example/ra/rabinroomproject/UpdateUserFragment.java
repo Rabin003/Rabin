@@ -55,9 +55,9 @@ public class UpdateUserFragment extends Fragment {
 
                 MainActivity.myAppDatabase.myDao().updateUser(user);
                 Toast.makeText(getActivity(),"User update successfully",Toast.LENGTH_SHORT).show();
-                UserId.setText(id);
-                UserName.setText(name);
-                UserEmail.setText(email);
+                UserId.setText("");
+                UserName.setText("");
+                UserEmail.setText("");
             }
         });
 
